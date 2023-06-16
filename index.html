@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Age calculator app</title>
+
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="main">
+    <div class="inputbox"><div class="input">
+     <div>day</div> <input  maxlength="2" placeholder="DD" type="text" /> <div class="d"></div></div> 
+    <div class="input"> <div>month</div><input maxlength="2" placeholder="MM" type="text" /><div class="m"></div></div>  
+    <div class="input"> <div>year</div> <input maxlength="4" placeholder="YYYY" type="text" /><div class="y"></div></div> 
+    </div>
+   <div class="arr">
+    <div></div>
+     <div class="circle"><svg xmlns="http://www.w3.org/2000/svg" width="46" height="44" viewBox="0 0 46 44"><g fill="none" stroke="#FFF" stroke-width="2"><path d="M1 22.019C8.333 21.686 23 25.616 23 44M23 44V0M45 22.019C37.667 21.686 23 25.616 23 44"/></g></svg></div>
+    </div>
+    <div class="content"><div class="year"> <span>--</span> years</div>
+  <div class="month"><span>--</span> months</div>
+<div class="days"><span>--</span> days</div></div>
+ </div>
+ <script src="script.js"></script>
+    </body>
+</html>

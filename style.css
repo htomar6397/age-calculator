@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+ font-family: 'Poppins', sans-serif;
+ 
+    height: 100vh;
+    width: 100vw;
+    background-color: hsl(0, 0%, 86%);
+    user-select: none;
+}
+.main{
+    position: absolute;
+    height: 550px;
+    width: 850px;
+     left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px 20px 200px 20px;
+    background-color: white;
+    padding: 40px 40px;
+   
+}
+.input div{
+    font-size: 13px;
+   text-transform: uppercase;
+   color: #0008;
+   margin-bottom: 10px;
+   font-weight: 700;
+   letter-spacing: 1px;
+}
+input{
+    /* outline: none; */
+    border: none;
+    border-color: #0007;
+    height: 62px;
+    width: 185px;
+   outline-width: 10px;
+   outline-color: hsl(259, 100%, 65%);
+      border: 1px solid #0002;
+    border-radius: 3px;
+    font-size: 32px;
+    color: black;
+    padding: 20px;
+    font-weight: 600;
+}
+
+.inputbox{
+    display: flex;
+    gap: 20px;
+  
+   
+}
+.arr{
+    height: 100px;
+    width: 95%;
+   
+}
+.arr div{
+    
+    position: relative;
+    top: 50%;
+    height: 1px;
+    width: 100%;
+    background-color: #0002;
+}
+.arr .circle{
+    position: relative;
+    top: 0;
+    float: right;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+   background-color: hsl(259, 100%, 65%);
+   cursor: pointer;
+}
+.arr .circle:active{
+    background-color: black;
+}
+.arr .circle svg{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+}
+.content{ 
+    height: 200px;
+    
+    font-size: 82px;
+    font-weight: 950;
+    line-height: 85px;
+    word-spacing: -5px;
+    letter-spacing: -1px;
+}
+.content span{
+    color:  hsl(259, 100%, 65%);
+}
+.input .d,.input .m,.input .y{
+    margin-top: 5px;
+    text-transform: none;
+    font-weight: 400;
+    color: red;
+    font-style: italic;
+    font-size: 13px;
+  
+}
+@media only screen and (max-width: 395px) {
+  body {
+    background-color: lightblue;
+    height: 100vh;
+  }
+  .main{
+    
+    height: 520px;
+    width: 360px;
+    padding: 40px 20px;
+      border-radius: 20px 20px 130px 20px;
+}
+.input div{
+    font-size: 15px;
+    margin-bottom:2px;
+}
+    input{
+        width: 95px;
+        height: 50px;
+        font-size: 24px;
+        padding: 5px 13px;
+    }
+    .inputbox{
+        gap: 15px;
+    }
+    .arr .circle{
+        float: none;
+        margin-left: 35%;
+        margin-top: 10px;
+        height: 80px;
+        width: 80px;
+    }
+    .input .d,.input .m,.input .y{
+        font-size: 10px;
+    }
+    .content{
+        font-size: 72px;
+    }
+}
