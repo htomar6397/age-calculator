@@ -117,7 +117,7 @@ transform: translate(-50%,-50%);
     
     height: 520px;
     width: 360px;
-    padding: 40px 20px;
+    padding: 40px 22px;
       border-radius: 20px 20px 130px 20px;
 }
 .input div{
@@ -135,11 +135,12 @@ transform: translate(-50%,-50%);
     }
     .arr .circle{
         float: none;
-        margin-left: 35%;
+        margin-left: 40%;
         margin-top: 10px;
         height: 80px;
         width: 80px;
     }
+    .arr div{ width:104%; }
     .input .d,.input .m,.input .y{
         font-size: 10px;
     }
